@@ -1,0 +1,42 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/apiTest/apiTest",
+      "style": {
+        "navigationBarTitleText": "接口测试"
+      }
+    },
+    {
+      "path": "pages/feelFish/feelFish",
+      "style": {
+        "navigationBarTitleText": "摸鱼手册"
+      }
+    },
+    {
+      "path": "pages/ai/poetry",
+      "style": {
+        "navigationBarTitleText": "诗歌生成平台"
+      }
+    },
+    {
+      "path": "pages/errorPage/404",
+      "style": {
+        "navigationBarTitleText": "404",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  }
+}

@@ -1,0 +1,8 @@
+# idea file
+/.idea/
+*.iml
+# modules libraries
+/node_modules/
+# out file
+/out/
+/dist/
